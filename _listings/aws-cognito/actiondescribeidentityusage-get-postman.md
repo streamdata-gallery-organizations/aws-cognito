@@ -1870,41 +1870,4 @@
           "request": {
             "url": "http://example.com/api/?Action=DescribeIdentityPoolUsage?IdentityPoolId=IdentityPoolId",
             "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Gets usage details (for example, data storage) about a particular identity pool."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "b5a28710-d80e-445b-98a2-34076a90f041"
-            }
-          ]
-        },
-        {
-          "id": "6af0a11d-02ce-4078-9ad6-8a4455cee36f",
-          "name": "describeIdentityUsage",
-          "request": {
-            "url": "http://example.com/api/?Action=DescribeIdentityUsage?IdentityId=IdentityId&IdentityPoolId=IdentityPoolId",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Gets usage information for an identity, including number of datasets and data usage."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "bbd6cecb-d76a-4f8b-bb4d-f9d013de79e2"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+    

@@ -1870,21 +1870,4 @@
           "request": {
             "url": "http://example.com/api/?Action=DescribeIdentityPoolUsage?IdentityPoolId=IdentityPoolId",
             "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Gets usage details (for example, data storage) about a particular identity pool."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "a4ff645b-529b-48c2-bd24-bf16a0bd2220"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+   
